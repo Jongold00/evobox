@@ -22,6 +22,18 @@ public class GameManagerScript : MonoBehaviour
     private GameObject placingObject;
     // a preview instance of the object to be placed
     private GameObject placingObjectPreview;
+<<<<<<< Updated upstream
+=======
+    
+    private CoinHandler coinHandler;
+
+
+    private void Awake()
+    {
+        coinHandler = FindObjectOfType<CoinHandler>(); 
+    }
+    
+>>>>>>> Stashed changes
     void Start()
     {
         if (!mainCamera)
